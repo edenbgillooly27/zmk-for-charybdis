@@ -40,7 +40,7 @@
         /* Thumbs — TOP (L:3, R:2) */
         &mkp LCLK            &kp UP        &kp RIGHT      &mkp RCLK     &kp SPACE
         /* Thumbs — BOTTOM (L:2, R:1) */
-        &lt L2 LEFT            &kp DOWN      &kp ENTER
+        &lt 1 LEFT             &kp DOWN      &kp ENTER
       >;
     };
 
@@ -52,9 +52,9 @@
         &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
 
         /* Thumbs — TOP (5) */
-        &mo L3                &mo L4        &trans         &trans         &trans
+        &mo 2                &mo 3        &trans         &trans         &trans
         /* Thumbs — BOTTOM (3) */
-        &mo L5                &trans        &trans
+        &mo 4                &trans        &trans
       >;
     };
 
@@ -89,15 +89,4 @@
     L5 {
       bindings = <
         &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-
-        /* Thumbs — TOP (5) */
-        &trans               &trans        &trans         &trans         &trans
-        /* Thumbs — BOTTOM (3) */
-        &trans               &trans        &trans
-      >;
-    };
-  };
-};
+        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &t
