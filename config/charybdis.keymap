@@ -11,6 +11,19 @@
 };
 
 / {
+    behaviors {
+        ht: ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT";
+            #binding-cells = <2>;
+            // timing to match your &lt block
+            tapping-term-ms = <500>;
+            flavor = "balanced";      // or "tap-preferred"/"hold-preferred"
+            quick-tap-ms = <150>;
+        };
+    };
+
+/ {
     macros {
         To1_macro: To1_macro {
             compatible = "zmk,behavior-macro";
